@@ -1,0 +1,47 @@
+#root {
+  font-family: sans-serif;
+  text-align: center;
+}
+#root .img-bulb {
+  margin: 25px auto 0;
+  max-width: 100%;
+  display: block;
+}
+#root .btn-switch {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-size: 18px;
+  outline: none;
+  -ms-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#root .btn-switch:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  -ms-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#root .label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+#root pre {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+}
+#root code {
+  display: inline-block;
+  text-align: left;
+}

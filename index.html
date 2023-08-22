@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Vue JS Emit Event: Light Bulb App</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="root">
+  <h1>{{ appTitle }}</h1>
+  <light-bulb :source="bulb[bulbState]"></light-bulb>
+  <br>
+  <bulb-switch v-on:switch-light="switchLight" :switch-state="switchState"></bulb-switch>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
